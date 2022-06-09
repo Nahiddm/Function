@@ -1,0 +1,17 @@
+class Data_Diri:
+    def __init__(self,nama, nim, asalkota):
+    
+        self.nama=nama
+        self.nim=nim
+        self.asalkota=asalkota
+           
+    def show(self):
+        print("Nama\t\t:", self.nama)
+        print("NIM\t\t:", self.nim)
+        print("Asal kota\t:", self.asalkota)
+
+if __name__ == '__main__':
+    Identitas=Data_Diri("Ahmad", "12022000", "Surasbaya")
+
+    Identitas.show()
+    print()
